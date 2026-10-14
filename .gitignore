@@ -1,0 +1,18 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Credentials and spreadsheet exports stay local.
+# API keys, Wi-Fi PSKs, and tokens belong in the private spreadsheet only.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+client_secret*.json
+*.xlsx
+*.xls
+*.csv
