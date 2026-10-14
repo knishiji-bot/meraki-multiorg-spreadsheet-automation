@@ -33,6 +33,13 @@ Those values stay in your private spreadsheet and are read at runtime.
 - Demo reset utilities for SSID and Firewall
 - Execution log per Organization
 
+## Documentation
+
+| Document | English | 日本語 |
+|---|---|---|
+| Spreadsheet columns | [docs/en/sheet_schema.md](docs/en/sheet_schema.md) | [docs/ja/sheet_schema.md](docs/ja/sheet_schema.md) |
+| API endpoints | [docs/en/api_endpoints.md](docs/en/api_endpoints.md) | [docs/ja/api_endpoints.md](docs/ja/api_endpoints.md) |
+
 ---
 
 ## Requirements
@@ -127,7 +134,7 @@ Wi-Fi PSKs after a backup.
 | `Backup_Firewall` | Firewall backup history | Auto-created |
 | `Log_MultiOrg` | Execution log | Auto-created |
 
-Column layouts: [`docs/sheet_schema_ja.md`](docs/sheet_schema_ja.md).
+Column layouts: [English](docs/en/sheet_schema.md) · [日本語](docs/ja/sheet_schema.md).
 
 #### 2-3. Enter Headers and Values in Each Manual Sheet
 
@@ -263,8 +270,13 @@ meraki-multiorg-spreadsheet-automation/
 ├── gas/
 │   └── meraki_multi_org.gs
 └── docs/
-    ├── sheet_schema_ja.md
-    └── api_endpoints.md
+    ├── README.md
+    ├── en/
+    │   ├── sheet_schema.md
+    │   └── api_endpoints.md
+    └── ja/
+        ├── sheet_schema.md
+        └── api_endpoints.md
 ```
 
 ---
@@ -301,7 +313,7 @@ meraki-multiorg-spreadsheet-automation/
 
 ## API Endpoints Used
 
-See [`docs/api_endpoints.md`](docs/api_endpoints.md).
+See [English](docs/en/api_endpoints.md) · [日本語](docs/ja/api_endpoints.md).
 
 ---
 
@@ -351,4 +363,4 @@ This tool is provided **as is**, without warranty.
 
 ## Author
 
-Knishiji(Per)
+Cisco Meraki Customer Success Team
